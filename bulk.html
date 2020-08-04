@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+    <link rel="stylesheet" type="text/css" href="bulk_css/style.css">
+</head>
+<body>
+    <div id="header">
+        <center><img src="img.jpg" alt="adminLogo" id="adminLogo"><br>This is an Admin Panel
+        </center>
+    </div>
+    <div id="sidebar">
+        <ul>
+            <a href="bulk.html"><li>Bulk Upload</li></a>
+            <a href="product.html"><li>Production Selection</li></a>
+            <a href="signout.html"><li>Sign Out</li></a>
+        </ul>
+    </div>
+    <div id="data">
+
+        <h2>Download Button</h2>
+
+        <p>Click on the button to download product data:</p>
+        <a href="#"><button class="btn"><i class="fa fa-download"></i> Download</button></a>
+
+        <h2>Upload Button</h2>
+
+        <p>Selct a (csv/xml/text/json) file and upload it:</p>
+        <form action="#">
+            <input type="file" id="real-file">
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>

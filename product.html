@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+    <link rel="stylesheet" type="text/css" href="product_css/style.css">
+</head>
+<body>
+    <div id="header">
+        <center><img src="img.jpg" alt="adminLogo" id="adminLogo"><br>This is an Admin Panel
+        </center>
+    </div>
+    <div id="sidebar">
+        <ul>
+            <a href="bulk.html"><li>Bulk Upload</li></a>
+            <a href="product.html"><li>Production Selection</li></a>
+            <a href="signout.html"><li>Sign Out</li></a>
+        </ul>
+    </div>
+    <div id="data">
+        <h2>Product Edit Page</h2>
+        <table>
+            <tr>
+                <td>
+                    <form>
+                        <label for="">Product id</label>
+                        <input type="text" name="productId" value="men'sLeatherJacket002" readonly><br>
+                        <label for="">Name</label>
+                        <input type="text" name="location"><br>
+                        <label for="">Description</label>
+                        <input type="text" name="description"><br>
+                        <label for="">Category name</label>
+                        <input type="text" name="categoryName"><br>
+                        <label for="">Image path</label>
+                        <input type="text" name="imagePath"><br>
+                        <label for="">Price</label>
+                        <input type="number" name="price"><br>
+                        <label for="">Featured product</label>
+                        <input type="text" name="featuredProduct"><br>
+                        <button type="submit" name="save">Save</button>
+                        <a href="#"><button type="button" name="productSelect">Select a Product</button></a>
+                        <a href="#"><button type="button" name="newProduct">Add a New Product</button></a>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
